@@ -1,0 +1,28 @@
+# R packages used across pipelines
+# Install with: install.packages(c(...)) or BiocManager::install(c(...))
+
+# CRAN
+ggplot2
+cowplot
+scales
+dplyr
+tidyr
+readxl
+readr
+stringr
+tibble
+purrr
+tidyverse
+gghalves        # half-violin plots (wt-hub-characterization, rnai-screen)
+ggtext          # rich-text plot labels (rnai-screen, trichome-analysis)
+ggh4x           # extended ggplot2 facetting/axis features (trichome-analysis)
+patchwork       # multi-panel plot composition (rnai-screen)
+
+# Bioconductor
+Seurat
+rtracklayer
+# umi4Cats          # UMI-4C analysis (Bioconductor)
+
+# Notes:
+# - Seurat v4 used (v5 caused Matrix/irlba conflicts in scATAC pipeline;
+#   resolved with RSpectra::svds as a workaround where relevant)

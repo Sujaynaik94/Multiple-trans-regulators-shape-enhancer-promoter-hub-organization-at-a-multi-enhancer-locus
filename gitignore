@@ -1,0 +1,51 @@
+# --- Raw imaging data ---
+*.czi
+*.tif
+*.tiff
+*.nd2
+
+# --- Sequencing / alignment data ---
+*.fastq
+*.fastq.gz
+*.fq.gz
+*.bam
+*.bam.bai
+*.sam
+*.cram
+*.bw
+*.bigwig
+*.hic
+*.cool
+*.mcool
+
+# --- Large tabular outputs ---
+*.xlsx
+!Supplementary_Tables_svb*.xlsx
+*.h5
+*.h5ad
+*.rds
+*.RData
+
+# --- Environment / cache ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.Rhistory
+.RData
+.Rproj.user/
+*.egg-info/
+.venv/
+venv/
+.env
+
+# --- OS / editor junk ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Logs / temp ---
+*.log
+*.tmp
+tmp/
+temp/

@@ -1,0 +1,21 @@
+name: svb-enhancer-hub
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - hicexplorer
+  - pygenometracks
+  - samtools
+  - deeptools        # for bamCoverage
+  - pip
+  - pip:
+      - # add any pip-only packages here, e.g.:
+      # - umi4cpackage
