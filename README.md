@@ -1,4 +1,4 @@
-# svb-enhancer-hub
+# Multiple trans-regulators shape enhancer-promoter hub organization at a multi-enhancer locus
 
 Code accompanying Naik et al., "Multiple trans-regulators shape enhancer-promoter hub organization at a multi-enhancer locus" (manuscript in preparation / submitted to *Nature Communications*).
 
