@@ -1,6 +1,6 @@
 # Multiple trans-regulators shape enhancer-promoter hub organization at a multi-enhancer locus
 
-Code accompanying Naik et al., "Multiple trans-regulators shape enhancer-promoter hub organization at a multi-enhancer locus" (manuscript in preparation / submitted to *Nature Communications*).
+Code accompanying Naik et al., "Multiple trans-regulators shape enhancer-promoter hub organization at a multi-enhancer locus" (manuscript in preparation).
 
 This repository contains the analysis pipelines and figure-generation scripts used in the paper. Raw sequencing and imaging data are deposited separately (see **Data availability** below).
 
